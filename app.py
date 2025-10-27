@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello from ECS via Jenkins!"
+    return "Hello from ECS (Docker) BLA BLA BLA!"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
